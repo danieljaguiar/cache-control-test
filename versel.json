@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/vercel-cache.tsx",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=620"
+        },
+        {
+          "key": "Test-Type",
+          "value": "vercel"
+        }
+      ]
+    }
+  ]
+}
