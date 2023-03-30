@@ -5,11 +5,37 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "max-age=520"
+          "value": "max-age=521"
         },
         {
           "key": "Test-Type",
-          "value": "vercel"
+          "value": "vercel1"
+        }
+      ]
+    },
+    {
+      "source": "/vercel-cache",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=522"
+        },
+        {
+          "key": "Test-Type",
+          "value": "vercel2"
+        }
+      ]
+    },
+    {
+      "source": "/vercel-cache.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=523"
+        },
+        {
+          "key": "Test-Type",
+          "value": "vercel3"
         }
       ]
     }
