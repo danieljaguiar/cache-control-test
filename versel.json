@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "max-age=520, s-maxage=620"
+          "value": "max-age=520"
         },
         {
           "key": "Test-Type",
