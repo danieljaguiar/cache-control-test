@@ -14,7 +14,7 @@ const SSRCACHEPAGE: NextPage<Props> = (props) => {
 };
 
 export const getServerSideProps: GetServerSideProps = async (context): Promise<GetServerSidePropsResult<Props>> => {
-  context.res.setHeader("Cache-Control", "s-maxage=600, stale-while-revalidate");
+  context.res.setHeader("Cache-Control", "max-age=0, s-maxage=600");
   context.res.setHeader("Test-Type", "ssr");
 
   return {
